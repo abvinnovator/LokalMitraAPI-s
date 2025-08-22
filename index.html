@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lokal - Restaurant Finder</title>
+</head>
+<body>
+    <h1>Lokal Restaurant Finder</h1>
+    <button onclick="getNearbyRestaurants()">Get Nearby Restaurants</button>
+    
+    <div id="status"></div>
+    <pre id="results"></pre>
+
+    <script>
+        function getNearbyRestaurants() {
+            const statusDiv = document.getElementById('status');
+            const resultsDiv = document.getElementById('results');
+            
+            statusDiv.innerHTML = 'Getting your location...';
+            resultsDiv.innerHTML = '';
+            
+            if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(
+                    async (position) => {
+                        const lat = position.coords.latitude;
+                        const lon = position.coords.longitude;
+                        
+                        statusDiv.innerHTML = `Location found: ${lat.toFixed(6)}, ${lon.toFixed(6)}<br>Fetching restaurants...`;
+                        
+                        try {
+                            const response = await fetch(`http://localhost:8000/restaurants?lat=${lat}&lon=${lon}&limit=5`);
+                            
+                            if (!response.ok) {
+                                throw new Error(`HTTP error! status: ${response.status}`);
+                            }
+                            
+                            const data = await response.json();
+                            statusDiv.innerHTML = `Found ${data.count} restaurants`;
+                            resultsDiv.innerHTML = JSON.stringify(data, null, 2);
+                        } catch (error) {
+                            statusDiv.innerHTML = `Error: ${error.message}`;
+                            console.error('Error:', error);
+                        }
+                    },
+                    (error) => {
+                        statusDiv.innerHTML = `Geolocation error: ${error.message}`;
+                    },
+                    {
+                        enableHighAccuracy: true,
+                        timeout: 10000,
+                        maximumAge: 0
+                    }
+                );
+            } else {
+                statusDiv.innerHTML = 'Geolocation is not supported by this browser.';
+            }
+        }
+    </script>
+</body>
+</html>
