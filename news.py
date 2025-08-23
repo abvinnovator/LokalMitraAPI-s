@@ -27,17 +27,54 @@ def scrape_news():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
-        page.goto("https://telugu.getlokalapp.com/andhra-news/ongole/ongole")
+        page.goto("https://telugu.way2news.com/category/andhra-pradesh/prakasam/")
         
-        titles = [t.inner_text() for t in page.query_selector_all("h2")]
+        # Wait for content to load
+        page.wait_for_selector(".newsItem", timeout=10000)
+        
+        news_items = []
+        news_elements = page.query_selector_all(".newsItem")
+        
+        for item in news_elements:
+            try:
+                # Extract headline and link
+                headline_element = item.query_selector("h1 a")
+                headline = headline_element.inner_text().strip() if headline_element else "No headline"
+                news_link = headline_element.get_attribute("href") if headline_element else ""
+                
+                # Extract thumbnail image
+                img_element = item.query_selector("figure img")
+                thumbnail = img_element.get_attribute("src") if img_element else ""
+                
+                # Extract description
+                desc_element = item.query_selector("p")
+                description = desc_element.inner_text().strip() if desc_element else "No description"
+                
+                # Extract date if available
+                date_element = item.query_selector("h6 span:last-child")
+                date = date_element.inner_text().strip() if date_element else ""
+                
+                news_item = {
+                    "headline": headline,
+                    "description": description,
+                    "thumbnail": thumbnail,
+                    "news_link": news_link,
+                    "date": date
+                }
+                
+                news_items.append(news_item)
+                
+            except Exception as e:
+                print(f"Error processing news item: {e}")
+                continue
         
         browser.close()
-    return titles
+        return news_items
 
 if __name__ == "__main__":
     try:
-        titles = scrape_news()
-        print(json.dumps({"success": True, "titles": titles}))
+        news_data = scrape_news()
+        print(json.dumps({"success": True, "news": news_data}))
     except Exception as e:
         print(json.dumps({"success": False, "error": str(e)}))
 '''
@@ -52,7 +89,7 @@ def run_scraper():
         
         # Run the script
         result = subprocess.run([sys.executable, script_path], 
-                              capture_output=True, text=True, timeout=30)
+                              capture_output=True, text=True, timeout=60)
         
         # Clean up
         os.unlink(script_path)
@@ -60,7 +97,7 @@ def run_scraper():
         if result.returncode == 0:
             data = json.loads(result.stdout.strip())
             if data["success"]:
-                return data["titles"]
+                return data["news"]
             else:
                 print(f"Scraper error: {data['error']}")
                 return []
@@ -80,13 +117,13 @@ async def root():
 async def get_news():
     try:
         print("Running scraper in subprocess...")
-        titles = run_scraper()
+        news_data = run_scraper()
         
         return {
             "success": True,
             "city": "Ongole",
-            "count": len(titles),
-            "news": titles
+            "count": len(news_data),
+            "news": news_data
         }
         
     except Exception as e:
