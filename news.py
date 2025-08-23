@@ -24,7 +24,7 @@ import json
 import sys
 import traceback
 
-def scrape_news(district="prakasam"):
+def scrape_news(district=""):
     try:
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
@@ -80,8 +80,8 @@ def scrape_news(district="prakasam"):
 
 if __name__ == "__main__":
     try:
-        # Get district from command line arguments, default to prakasam
-        district = sys.argv[1] if len(sys.argv) > 1 else "prakasam"
+        
+        district = sys.argv[1] if len(sys.argv) > 1 else ""
         news_data = scrape_news(district)
         result = {"success": True, "news": news_data}
         print(json.dumps(result))
@@ -90,7 +90,7 @@ if __name__ == "__main__":
         print(json.dumps(error_result))
 '''
 
-def run_scraper(district="prakasam"):
+def run_scraper(district=""):
     """Run the scraper in a separate process"""
     try:
         # Write scraper to temp file
@@ -143,7 +143,7 @@ async def root():
 
 
 @app.get("/api/news")
-async def get_news(district: str = "prakasam"):
+async def get_news(district: str = ""):
     try:
         print(f"Running scraper for district: {district}")
         news_data = run_scraper(district)

@@ -1,0 +1,192 @@
+{
+  "success": true,
+  "latitude": 15.5186783843909,
+  "longitude": 80.0252570061077,
+  "radius": 2000,
+  "count": 10,
+  "restaurants": [
+    {
+      "name": "Lasya Grand Restaurant",
+      "address": "near Chimakurthy Road, Samatha Nagar, Virat Nagar, Ongole, Andhra Pradesh 523001, India",
+      "rating": 4.7,
+      "reviews_count": 2794,
+      "phone": "+91 96427 77765",
+      "website": null,
+      "place_id": "ChIJ09LxgQEBSzoR-lnYySUe0Mw",
+      "data_id": "0x3a4b010181f1d2d3:0xccd01e25c9d859fa",
+      "data_cid": "14758329126542137850",
+      "gps_coordinates": {
+        "latitude": 15.5197506,
+        "longitude": 80.0288436
+      },
+      "thumbnail": "https://lh3.googleusercontent.com/gps-cs-s/AC9h4nogQDL2nHMHrM-7OEg80fXe6VmHkPt8OD6Lj_swwNI_VbJ0IxlSZ3aogTWRieikal_5dRt_zaPSk4mockfp5rztPx1vnNOwc3jKiVxrF0WHtrRuZJJh8F3wAfqOYs9GMVyH=w80-h106-k-no",
+      "type": "Biryani restaurant",
+      "hours": "Open ⋅ Closes 10:30 PM",
+      "service_options": {
+        "dine_in": true,
+        "curbside_pickup": true,
+        "no_contact_delivery": true
+      },
+      "reviews": [
+        {
+          "author": "mahesh alluri",
+          "author_reviews_count": 1,
+          "rating": 5,
+          "text": "Lasya Grand , A Party Hall for 180-200 people in Ongole.\n\nCooL Central AC❄️, Very Good Audio systems 🎤🎵\n\nGrand Decorations , Clean and Spacious Green/make-up Rooms and Ample Car Parking.\n\nVery Tasty 😋 Scrumptious Food . We have booked for 180 guests and 250 turned out. Amazing well trained Staff they re-organized very well in a quick time to serve for 250 guests... Thanks a lot 🙏\n\nAwesome Decoration, Flexible Menu , Reasonable Price , Polite Staff and Elegant Ambience ... A good Banquet for 50 to 300 people.\n\nI am very Happy and I recommend Lasya Grand Banquet Hall in Ongole.\n\nLasya Grand Restaurant is spacious, staff courteous and food very tasty ... Well maintained family restaurant. Had a memorable time ... 🍲🥗🥙🧆🍨😋😋",
+          "date": "Edited 2 weeks ago",
+          "likes": 0,
+          "images": [
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90DEKI-z4--mQ9dgzuiXjng0nzoZ2s3a_-kavKQ800SdDmP0DzjjTE1SnI3JyTYiEKorh6vUuxCZXpLJr1p8pGDeEJVscjY0xV1L_s1_s5bhdD3rmVl0BrjnHYsnd5rw60RJaEgRqQ",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90ADNBc7zFcT_jUtmk2Q4HPxW7h8lnkLBH_ZY7Nrp6702xIuTtlZH0z53sJfh45qDQYT_5tA2LIDz8EkVHIJ84mV3KOATfnRP1Cf-3gY6dcSYKdQg2Tpt2kGgiLHFXFRA9VWwDt1",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90A1Ys_UL2qJD90-dqiTfbcgEv-Z8wCPSVitYEOp8SKDzdMLjm-QN9NZt1iqGgBo29o-6ARQtoy8wXT5PdU9HgpTzDfdv-56iitqOy7R8YUhCQDe1FN9JIyZJPkNQiBE4s4xDkbQ",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90CIvbTMtQXZEjoGjQe0J_v6hVy0cpMvdoow9ol8wyuHJ1XbZsO3lZpKs0PhF53Uq5sheqrV145uOsC9UK7qi9p4ncPOLbwyiNiMR5Rz3PzAXxRl-BBH6csP5mHEENdMPgUb3vHT",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90BBgNi6wHKMGzg2xN0wuPBHwDvxoUtdV-w_n3ys3iOkTjFdndQvSHfNek1sh2i9BmQQYeQGdZCZOSWfZfXDFfx29UDmmiYf0L5WqzWfx-WXxCfZDffGwmGZldjWxocjOjg5nR-eiA",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90B-QJu0rBkawtGs74c5aPZa_JI8-tEstF3S5Nil78gyOfZfupTq_YJD6jYSXY1lo8qrVdEHjbyAjZZeYhDke3SLvlvmPpesbOQAuUwL-aXYKK2Ph0Xf-xIvNliOUD7QnOVs7o8",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90CXGxS7F2DGWBiRNx2fJxGiXhGtp3F-DPBHOH8c-CyP0CJxWUyLrxXYZ-0uTldzN63yRBokR5dAikxdq3_MGDcxtavgvJzX9QgIbvBmvh4KHPV4xtH2P98euA9LIgnukh53DT10iw",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90ADUtfE562LkzzaIOjmqyhpeI9xKpc_1_4D_9Vz43ZmixD-FbzDtg5kwvgGInAosgHv2c2cEg4k-6ghoVr62CGYzVaVzRB-QoBAnZKLcymtLsnUsuUrHidpeXhVpFb9ejwDg7cRxg",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90CIaMf1eZ5n1-e6rLNpNBr1-ePYnwV55nGVaZxGS1ngh34QRfAeIZJus_q06ZM4DZz-c13UtZearIpX-UzfCmmKo6vjTio3GvKEFu_Wn66GMtIbMNwwUNZDAOPKkAw_D78XTmw",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90CQnVjNRaIA7hmowsUYz3wMY66Q80AYPaWRntMtn3wKLodzAYUmEBXhNBBpV8owwh7iCmaAlawBzzrHtMbqlTlsHYKyG-EeZZbACZUN-Uxrny3zCHerifrkOUH1H4xHiBIsxYI7CA",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90B1OM4DDTjMCtODuCcAZel3WQ6E1gj3ZIFJI4dNyPKtRzpzL1QyNfttM4Wed589VWAzpRsZM-Jf7vENsMmN2z3Z8nLKIVve57Q_fXSbT2hc7uKcW_sseAwRlGAw4R83727BhSZj"
+          ],
+          "response_from_owner": {
+
+          }
+        },
+        {
+          "author": "Suneel Krishna",
+          "author_reviews_count": 4,
+          "rating": 5,
+          "text": "I recently celebrated my daughter's birthday party at Lasya Grand restaurant and had an exceptional experience. They have arranged all facilities with in less than 6 hours notice. I am amazed to see such all in one restaurant in Ongole.\n\nThe restaurant also boasts a spacious party hall, perfect for hosting events of varying sizes. I was impressed by their ability to make quick arrangements on short notice, showcasing their commitment to customer satisfaction.They have various party places which can accommodate from 25 to 200 people.\n\nThe food was incredibly delicious, offering a delightful blend of flavors that left my taste buds craving more. The ambience was excellent, creating a warm and inviting atmosphere for a pleasant meal.\n\nThe staff was not only attentive but also courteous, enhancing the overall dining experience. What pleasantly surprised me was the affordability of the menu, considering the high-quality dishes served.\n\nMoreover, the option for decoration services added a personalized touch to events. Overall, this place is a gem, offering not just delicious food but also a wonderful ambiance, friendly staff, and convenient event hosting options. Highly recommended!",
+          "date": "a year ago",
+          "likes": 0,
+          "images": [
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90CpunyJ9VsXEUwHOParx45ZkQKLeF1S-pBiD8ZOn-0MbX8b0jPAAVMCyj9jNuDf9XNc1kfoxx9XSUIEBsD7rpKSoiwp_1xqTnTc2LpAxfYKQatv4O3X65tFNPQGNq6F36XjjRtA",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90DEUC_eSYS6YlN-u_UZt6yCi-2YZ3BR60tb-8ex4M5VbbcGUpnPRj_GU3-PQrm_bJDM-wPjkdlZ-_k305ZXCqhwrDOh78TtD6TpaYf7EuvExETSdQ3G7jknDW6BGGfHfedQCEaSlg",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90BSdHCm38cgoxK520D-8tzj0tFk47ySflI5Kn60PL2nCwiLlnjwnHePrngaV62xGiSUMGL-RV60_twY3bRTFQvbG0U93fhPCKG5lIJ6BbNk8K2jvgJLCfvStGVZbxStX6NAEDD4"
+          ],
+          "response_from_owner": {
+
+          }
+        },
+        {
+          "author": "Koti Buchepalli",
+          "author_reviews_count": 6,
+          "rating": 1,
+          "text": "Fake reviews, Ordered kadai chicken and got mixed of chicken and mutton with full of bones. No hygiene",
+          "date": "4 months ago",
+          "likes": 0,
+          "images": [
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90DlC-45zdY0UVqRQMYg5u8natwSxeCG5UTeZT04yhheGHAASdqDJIUGRmO9w-WlHP1Vm1R3-Pm0LC0Ke0mIJsqZVrDYYHw-0PQwEU80PR_g7GyaknZdalSq9a_U7WAmKtGic4Ru",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90CHCwu6XPdggpJat7uOrX4zyEkRUoaUFHo_FudEAqHbqJHlsMjWLkBnrSBxX4-bRQLQMYQ7n7bZ3-npHgb7c2zxdz9PXuF3LcSFUCnuqxUpe7VMIfEtFXMm8uSAVV57DQvmcLeN6Q"
+          ],
+          "response_from_owner": {
+
+          }
+        },
+        {
+          "author": "M.S.D. Prasad",
+          "author_reviews_count": 321,
+          "rating": 4,
+          "text": "It is located near bypass of Ongole city.\nNear to main road.\nFood and tiffin 's and non veg items also available.\nService is good.\nFood is fantastic...\nMaintanence is good..\nVeg meals have compliment available\nIce cream\nPan\nJuice provide after veg meals\nPrice for meals is nearly 199",
+          "date": "11 months ago",
+          "likes": 0,
+          "images": [
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90DUCMuZt2g9nEtSi6hiZMGNX4HncVx6sskYLYajWyBZvVehEjHmZbAVfxHKGGcdYZqv8-TN9o-JU4mNGkBwPEln_pOVVfrjQr7DVK3tv7nPv-Z3vXTS7BURoZU_RdxqgzVxSLY",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90ARg9_N2r1LBafBfWCBfj6yUilYFK3kJp8UNlWeu173DQXdLaOcL_RN0Bmn4bBSS4LnqawIaqme-wNkYiQT69otEyZIfxMss98BYik0PKGNkb5lTRUkI_83jDCcBKCX0QIk64rMdQ",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90C9WqWZOinPy4oFB7WdZzvyqZvec4NTAmHpiL1w7ouOfYwC2WzdI4O_gvUhNexAz61i5-g4UxNVUTROJnZqi9vzGfoQM0yq25c_6DXtPSoI3Wj2Hfqrqslnya5SHmypJpWmJHzx",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90A2JK95mZY9NU845qHsRcU8JBNisbF0zdVPSegCnt1hur8tR0qr0QaGPnzWEjc2v3W4xgxTt8Ghb3D-eQbKRXezk4sTctkGZjwT-GBl9pNSs8o_FlUfCJ1TsSAoxoztV9QXbR0O",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90BisEVy1V9R-7pIULYGoTSPmjltnh2YDgGL8xKVUvU0qWbwX4XtozCW3gS2bncZHAb25om2ONTEbyTiPkSLvmSL6bi-p-sxIyLxPyQl0UkKa0sPpKNUWCibY7dGYERq_6XOU1Nr",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90DqRRgqds3AszhBXydHZD0K1T3Rc5btw7Kqufv5kZtcKde3Bs_Sb1rpxrFZA4MRiLBpQqouovnGTYUZPyaVVVIA_RZ5CO6p1hVNrPazc8ggdPglS-tKOv-c3Ib98U9uEcJ4N5gWgA",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90BJXtWd8rrZ-43tEhRcjYk933FpWT7HurgTfhz8DDWt-Vcei1h-CsQGs7HQrRLqnAbpZttdx2NXvU-FkpnvlNFdcq0zfJOS7t9WHp6SFhEChO6cINjIYiZXapSWVPPUWn6r_K6J",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90AIPT5h2qPAeMaCGfe6dcUnhsVcd6S9agR29pdJJV-_n8KckKkrrfMmtXj6sLNAWlZtUJVm1HjcRfaKr_OqFN_-FoWZzaJ02IsCMNiYArMw58glbW9BUptMn5xpIHHwP3SEox4vrg",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90CmTvg96juLU7CJlrbAwRaRM9LfVM4bngKUmFO3gSbofFMQi-ZhkuqAoiAChN25DR4itM_HrxhpoNqcg9M4HOQ2PlyZwQxK2pHPbdPCuY5JXNNYIkbYuDPk7EpmRtNPElei4p4",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90AhKqo8nhnQs6C5Vf3ZvhFEPgZuZ9hMiNSbdo1SF_ffLsO3TZ4KPYIa8DsoHNja9Jy9AS3-gDctrzUPiNzpaQPLFHg5p0X4VSd5Y-am7sG8wzJIULEofuCC54HcerE-nABPTvkgtA",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90DgLZRVK9tWIUOuAIC_0Fi2o_A4A1O-8u9R0Vb2sf7B6Hc9BOxVD8aP-vlnHaGhJVcScy57t8oMY8z2ColWkBV4k28YFUUkX7cF1XYp7MDZi3XgLdKNf16nAOuTaShZ7nImpnR2",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90AZv7lQDvERpL07909p3a5bhVTooK8R_L4qchsqcyPNUpwzovahEEOqLFHcqfZSDagB9hS22BoSpsfiUqEuJF1I2P29lKD4cK0_ap8ZmXSZGTsitngX8TLVqDPeh7UQTWm6xUql9w",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90Boq8a8sbjfX4JER_k3h9N4YSYKe1N8mxTNtAymbSpGPdbusPKipfJQSjCx_7mn8LmBFsg9KSeEYfCt-zRYA33WEBF20nSRkAfJmGij0FHmXe5RO_TIaJYSxXxm7KpIDiceI8P1",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90DwMjkunOdTsbRWv3WWeX6N6OiuQfFZm6KMdkj0FuVp5KFnr_9g0zNXdb86BJWpcyBOSccvZBf_HODmQmvo3zrk1pMri2JvGybURF7u0hQZEBAUjVrdI4Ju5qI_NnxDuxJ5BAh1Uw",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90AkAbufAY-6oO88gqvoSsxHA9NOLLjDB8ArEO8wZ6fXkn_Mt1nmpcJSJItpSmJU3i0a8Nz76WexvX-Ac5SDos6PanLA0ujoHiPoaCQDb5M9_cm7gTkOc3xhQ6L3tONfLtdL_TEA",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90CY56BIjb-cPEWeLgaFeSQtddC1MzrEWbNmT07kEc92qhZpV4NbyCfVEnvb3gjYFnEiWSF2m1ZpJLHGbvYOTGrF3AaLu4PINsIuUJLNZa3JlbNXmlnIpPCzoyaQVwh0fjoRWBdi",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cjm-N45vrdH4MEvbcfQfMsRCCbMiMr4fg722jCZoca-D4ck1NDj-nqeQ5_AcPlVrzlUimZQVml9Lb8YsAzl1F-Qxh6IUfyPV3Dod8fmHP7a7pxwLq7EU_-78dCL98FpISqxqGG",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90BcFj3fNVrGUFWep_tHeMIxt3EHIbn5OZyUYr_zsWhf0CZw3qPdYHRlR7cpBV6U8OZ6Yi5lBdcqZCW2Z6mEaEUKSzFEl2cYqbxocK1Bx-cQiTN7YlY2IrLx7MDPALopVYGZe8jeOw",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90DjTwLHWHuR264WxbiWkvecspDx1-JpAYbW53wUS0-vZ1yL56leXruGFju26h2BW2u-7hvetGxl8PsLJE3XKDRrOrwJ3mxRGkxWfdTVOM2PoMHzw4snWHj6ZwsX6MJ4i70l-FY",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90C_F1Xx7pgp3_rhcuoOUMFh3-JEBrADFFStqO7ZMm9jC4wZYHM1wFVxP-QtC0a5i6hgkOfRQvCYZ-0GLRKYd8HjKuBdRdAHziY7nngg-gyywpD5-NZucg5cOgFUHS7eVGOwUiiK",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90BWdFNzpdfyxkGn1uqzo743WqIVRp4rTgrGw6pROft_SQTfkdpuVXogEvNVbJHGFeFq10YL_5Col6omfVWohWlkec1e_CBGwK0f2oNdnThPfyYpgeiA5tLZpdXzm1D1shAOkmQ",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90C3EPKqn3ACtxh6NvpwKl2FkdeM4KU-ZUKCt3LMAEISngLz1R-scmZyf2N1dXYJzqjw7gCjc4mQPNrptXNndd0BQyVAp9azX6rAm3CXKd9SScBj9cdUrQ5ISjeZgYZHttoCJ37n",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cd4jluq2lmFO1_MX-iMCRwdpWD5VZLAZWoANm18P_1w0Y0TevA2GgMJuVvPzaDrgq-wwZe9IeiFKgqpChQrbkXBgCZa_N_TYYFYmqhq13vCsKhWs1veE7hRVMN_E3LVrB5syJR",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90Bv5k41silnSZVG0ru07hVe0Pe8CfUHMByWF8yYjySXSBDVIACQW3teykXxhivugRPL8m9CwTjZHCFTOmJlL9y80N-x4qhxwZD85AegIBdie_5NjP3u0lxb58d-btzwbrZSxEI_VQ",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90A4GOKnx3lQNwBIK4d2-R84d4Cvgv2LdzOITR4cjwSvJy0M5b4BmK-G_F_Pa213R1Kg4xUEMQQ9JiH2oLOAZKdmbhBzfge8K_3-fLIJuVvA0tOlvoJmdRinut9ZhBNyc-Doe8nk",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90CdLmpJK4LBneBelNlrT5KeU_jkrzY9NK1LqaQNm1Oi22ng9lHq4C8G80okEZN6ON6cs5zSS6M7zwtqNTMT6GYEBrz8czTSfzsaX_c3qn3zY0VLUQodpd8iHaY8sqqIhBQLdpJVuA",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90DUnMSAcpWirvkxJ1GphPoijqb8UzgAnHhZg6OpEQR3edJyv7N8NtjMdirx36DKDTKxSTHA-Vyfsxonij5Hi5ia426EhYPFeYgy8qukrCLt2c6JiA1GGgH_Zn92HUhjUqocwDyh",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90AOvaA7C-FwFPWm1lNy63mkwSQuhoNNdTAIMj4GoF4o0pGJm5WtTe7TwbIjer8Yzl_9HGuzJWx1CW5v14Ip8GfrpVcpFigYZltb6fEjtfGs-MIs3HCG7IrHjmfgUrmg-XepeSDY",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90DVEhyN_K-STJz8zIU51TNkZUynD19aLV1WbwhyuzgD4WP7COChbDRPZ6DSwrDxT42yBb5loVJiNutFCqtWPFx6_xGwNgyoTC8AGlTafVL6w8ygBO70bT8JIqfXSBby5hl62l4"
+          ],
+          "response_from_owner": {
+
+          }
+        },
+        {
+          "author": "Naveen kumar Abburi",
+          "author_reviews_count": 1,
+          "rating": 5,
+          "text": "Loved this place! The food was super tasty, the vibes were great, and the staff was really friendly. Everything came out fresh and fast, and the portions were just right. It’s the kind of spot you just want to keep going back to. Totally worth it!",
+          "date": "4 months ago",
+          "likes": 0,
+          "images": [],
+          "response_from_owner": {
+
+          }
+        },
+        {
+          "author": "RAVI Galla",
+          "author_reviews_count": 2,
+          "rating": 1,
+          "text": "It is minus 5star for I ordered chicken lollipops and biryani the lollipops were so worst and the biryani is not cooked well and ithw white rice is best than the biryani",
+          "date": "2 weeks ago",
+          "likes": 0,
+          "images": [],
+          "response_from_owner": {
+
+          }
+        },
+        {
+          "author": "Tapaswini Benia",
+          "author_reviews_count": 4,
+          "rating": 5,
+          "text": "Food is very good, service is very good, restaurant is very beautiful, party hall is 150 to 200, there is facility for car parking, marriage party, Birthday day party, anniversary party, ext.",
+          "date": "a year ago",
+          "likes": 0,
+          "images": [
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90BHQYBsSzIu-sKtVAALW_6gzDTHPemDOIyvT943fbxIJZ5f8RcC8xCwT3DXnGZ2-UBhvtj_n1DHKCFL-FfQGoxJ28U92oIhjs3sAQAeFD0Rgo-F9rlgWRqiSqngFXHRnK5egHukuw",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90Cwqb9ijLCXEd3dPYcOWm40rqd5SyKofG6Y86WGJYnQ2uqWuiPP_gFM0HaQJKkqpV7lh4wkUbIbpRPojyZMaUzpgpqcl-u9bmb0n9F9uLQxsnZ7x_VwOECzMWzSZFFn8QY9NSKK",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90DejT_urJOQ1Q0dy0r1emA3cc0yh9n1G67yyin2mAui_qQ_6amfDYKgFql0hFfitBE_el_VO6Y1IYiKprosc1Ehf6R1CiKT8bjLN8zA2q50JRFtqirhL-hV6CniB3o79P9ZV6lxEw",
+            "https://lh3.googleusercontent.com/geougc-cs/AB3l90D31KQYI2UJukFSeBxrHoH_uILMSmp0oD5vg09TZ-iKmWGUWrf2ZABYT_bHpic4ojdiidadDHegb3LDEXbb24LIykduq1ujm9J2gByk-2Pz8AxazY287dqr5LJJSAyNi7WiPOs"
+          ],
+          "response_from_owner": {
+
+          }
+        },
+        {
+          "author": "GROUPS",
+          "author_reviews_count": 20,
+          "rating": 4,
+          "text": "Pleasant environment service very good\nSubhani biryani my friends talk 4* rated",
+          "date": "a week ago",
+          "likes": 0,
+          "images": [],
+          "response_from_owner": {
+
+          }
+        }
+      ],
+      "lokal_score": 11.4,
+      "total_reviews_text": 8
+    }
+   
+  ],
+  "summary": {
+    "total_restaurants": 10,
+    "total_reviews_collected": 80,
+    "average_rating": 4.39
+  }
+}
